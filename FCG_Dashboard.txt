@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCG Tracker</title>
+    <!-- Link for stylesheet -->
+    <link rel="stylesheet" href="Css/style.css">
+    
+    <!-- Link for bootstrap  -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <script src="JS/bootstrap.min.js"></script>
+    
+      <!-- Plugin for Datatables -->
+      <link rel="stylesheet" href="//cdn.datatables.net/1.12.0/css/jquery.dataTables.min.css">
+      <script src="//cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
+    <!-- Link for Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/logo.jpeg" class="img-responsive" id="logo">
+            </div>
+            <div class="col-lg-4">
+                <h3 id="heading">FCG TRACKING</h3>
+            </div>
+            <div class="col-lg-4">
+                <h5 id="user" class="right">Hi, User</h5>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+
+            <span>
+                <a href="form.html"><button class="btn_p right">Add New</button></a>
+                <button class="btn_p right">Export Excel</button>
+            </span><br><br>
+
+        </div>
+    </div>
+
+    <div>
+        <table id="myTable" class="display">
+
+            <thead>
+                <tr>
+                    <th>FCG</th>
+                    <th>Skill Team</th>
+                    <th>Supervisior</th>
+                    <th>Mentor</th>
+                    <th>Current Location</th>
+                    <th>Current Rotation</th>
+                    <th>Edit Item</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yalagandala, Rajesh (R.)</td>
+                    <td>MP&L</td>
+                    <td>Narayanan, Srividhya (S.)</td>
+                    <td>Yalagandala, Rajesh (R.)</td>
+                    <td></td>
+                    <td></td>
+                    <td><i class='fa fa-edit'></i></td>
+
+                </tr>
+                
+    </div>
+
+
+    <script src="JS/jquery-3.6.0.min.js"></script>
+   
+   
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+    </script>
+</body>
+
+</html>

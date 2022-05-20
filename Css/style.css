@@ -1,0 +1,63 @@
+.header{
+    background-color: #102B4E;
+   width: 100%;
+    height:60px;
+
+}
+#logo{
+    width: 150px;
+    height:60px;
+}
+#heading{
+    color:white;
+    margin-left:200px;
+    margin-top:10px;   
+}
+#user{
+  
+    color:white;
+    font-size: 18px;
+    margin:15px;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+.btn_p{
+    background-color: rgb(45, 46, 143);
+    color:white;
+    margin:10px;
+    padding:10px;
+    font-weight:bold;
+    border-radius: 10px;
+
+}
+.display{
+    width: 100%;
+  
+}
+th{
+    background-color: #102B4E;
+    color: white;
+    text-align: center;
+    padding:15px;
+
+}
+td{
+    padding:10px;
+}
+#input_search{
+    width:300px;
+    float:right;
+   
+}
+.contentf{
+    
+    padding: 10px;
+}
+body {
+ 
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}  

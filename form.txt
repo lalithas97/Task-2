@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataform</title>
+    <!-- Style link! -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Links for bootstrap -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <script src="JS/bootstrap.min.js"></script>
+  
+    <!-- CDN for select2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <!-- Jquery link -->
+    <script src="JS/jquery-3.6.0.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="images/logo.jpeg" class="img-responsive" id="logo">
+            </div>
+            <div class="col-lg-4">
+                <h3 id="heading">FCG TRACKING</h3>
+            </div>
+            <div class="col-lg-4">
+                <h5 id="user" class="right">Hi, User</h5>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <a href="FCG_Dashbord.html"><button class="btn_p right">Home</button></a>
+    </div>
+
+    <div class="contentf">
+        <div class="row">
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                FCG
+                <select id="listf" placeholder="Find Items" class="form-control">
+                    <option value=""></option>
+                </select>
+
+            </div>
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Skill Team
+                <input type="text" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                Position Number
+                <input type="text" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                FCG First Name
+                <input type="text" class="form-control">
+            </div>
+
+        </div><br>
+        <div class="row">
+
+            <div class="column col-lg-3">
+
+                FCG last Name
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Buddy
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Supervisior
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Mentor
+                <input type="text" class="form-control">
+            </div>
+
+        </div><br>
+        <div class="row">
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                PDC 5 REP
+                <input type="text" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                Start Date
+                <input type="date" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Six Sigma Training
+                <input type="text" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Black Belt Mentor
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Current Rotation
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="column col-lg-4">
+                Rotation 1
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                Rotation 1 Start
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                <!-- SELECT2 -->
+                Rotation 1 Supervisior
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="column col-lg-4">
+                Rotation 2
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                Rotation 2 Start
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                <!-- SELECT2 -->
+                Rotation 2 Supervisior
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="column col-lg-4">
+                Rotation 3
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                Rotation 3 Start
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                <!-- SELECT2 -->
+                Rotation 3 Supervisior
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="column col-lg-4">
+                Rotation 4
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                Rotation 4 Start
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                <!-- SELECT2 -->
+                Rotation 4 Supervisior
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="column col-lg-4">
+                Rotation 5
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                Rotation 5 Start
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                <!-- SELECT2 -->
+                Rotation 5 Supervisior
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="column col-lg-4">
+                Rotation 6
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                Rotation 6 Start
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="column col-lg-4">
+                <!-- SELECT2 -->
+                Rotation 6 Supervisior
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Final Placement Supervisior
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="column col-lg-3">
+                <!-- SELECT2 -->
+                Final Org Placement
+                <input type="text" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                Final Placement
+                <input type="text" class="form-control">
+            </div>
+            <div class="column col-lg-3">
+                Degree
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column col-lg-5">
+                Attachments<br>
+                
+                    <input type="file" class="form-control">
+                
+            </div>
+            <div class="column col-lg-5">
+                Comments
+                <input type="text" class="form-control">
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <input type="submit" class="btn_p left" value="Submit">
+            <a href="FCG_Dashbord.html"><input type="button" class="btn_p left" value="Cancel"></a>
+        </div>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            $("#listf").select2({
+                placeholder: "Find Items",
+                data: ["ABC", "DEF", "GHI"]
+            })
+        })
+    </script>
+</body>
+
+</html>
